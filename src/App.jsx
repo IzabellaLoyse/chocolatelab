@@ -1,10 +1,14 @@
 import './App.css';
+import Logo from './components/Logo';
+import './styles/abstract/colors.css';
+import './styles/base/elements.css';
+import './styles/vendor/normalize.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>hi</h1>
-    </div>
+    <main className="l-layout-container">
+      <Logo />
+    </main>
   );
 }
 

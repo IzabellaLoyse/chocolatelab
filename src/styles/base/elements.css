@@ -1,0 +1,39 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  outline-offset: 0.25rem;
+}
+
+body {
+  background-color: var(--color-primary);
+  line-height: 1.5;
+}
+
+p,
+li,
+h1,
+h2,
+h3,
+h4 {
+  hyphens: auto;
+  overflow-wrap: break-word;
+}
+
+img {
+  max-width: 100%;
+}
+
+img[width][height] {
+  height: auto;
+}
